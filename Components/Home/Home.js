@@ -16,7 +16,6 @@ export default function Home({navigation}) {
     return (
        
        <View style={styles.container}>
-
             <View style={styles.Home}>
              <Text style={styles.Heading}>Hello Doctor</Text>
              <Text style={styles.SubHeading}>Physician’s Companion</Text>
