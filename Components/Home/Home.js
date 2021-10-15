@@ -1,5 +1,5 @@
 import React ,{useState}from 'react'
-import {View,Button,Text,TouchableOpacity,Animated} from 'react-native'
+import {View,Button,Text,TouchableOpacity,Animated,Image} from 'react-native'
 import Auth from './Auth'
 import {styles} from './Styles/Home'
 export default function Home({navigation}) {
@@ -17,6 +17,7 @@ export default function Home({navigation}) {
        
        <View style={styles.container}>
             <View style={styles.Home}>
+               <Image style={styles.Image} source={require('../../assets/logo.png')}/>
              <Text style={styles.Heading}>Hello Doctor</Text>
              <Text style={styles.SubHeading}>Physician’s Companion</Text>
              <TouchableOpacity onPress={()=>startAnimation()} style={!show?{display:"flex"}:{display:"none"}}><View style={styles.Button}><Text style={styles.Text}>Get Started</Text></View></TouchableOpacity>
