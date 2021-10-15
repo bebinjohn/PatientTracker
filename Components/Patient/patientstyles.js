@@ -7,21 +7,15 @@ import { borderLeft, borderRadius, fontFamily, left, textAlign } from 'styled-sy
 export const style=StyleSheet.create({
     card:{
         flex:1,
-        borderRadius:15,
         backgroundColor:'rgba(255, 182, 193, 0.85)',
         elevation:3,
         shadowOffset:{width:1,height:1},
         shadowColor:'#333',
         shadowOpacity:0.3,
         shadowRadius:9,
-        marginHorizontal:4,
-        marginVertical:6,
         paddingLeft:10,
         paddingTop:30,
         paddingRight: 10,
-        
-        
-    
     },
     container:{
         paddingLeft:130,
@@ -45,21 +39,16 @@ export const style=StyleSheet.create({
     cards:{
         backgroundColor:'#fff',
         marginBottom:30,
-        borderRadius:15,
-       
+        borderRadius:15
     },
     Image:{
        /* position: 'absolute',
         paddingTop:300,*/
-           
-        
     },
     status:{
-        paddingLeft:100,
-        color:828282,
-        
-        
-        
+        paddingLeft:85,
+        marginTop:-10,
+        color:828282, 
     },
     id:{
         position: 'absolute',

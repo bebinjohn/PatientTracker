@@ -32,5 +32,9 @@ export const styles=StyleSheet.create({
             color:"white",
             fontFamily:"Roboto",
             fontWeight:"bold"
+    },
+    Image:{
+        width:80,
+        height:80
     }
 })

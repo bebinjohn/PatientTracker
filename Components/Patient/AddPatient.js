@@ -1,9 +1,5 @@
 import React from 'react'
-import {View,Text,TextInput,TouchableOpacity,ScrollView} from 'react-native'
-import {styles} from '../Home/Styles/addpatientstyle'
-import Input from '../Home/input'
-import { Radio, Center, NativeBaseProvider,value } from "native-base"
-import { style } from 'styled-system'
+import {View,Text,TextInput} from 'react-native'
 export default function AddPatient() {
     return (
         <ScrollView style={styles.container}>
