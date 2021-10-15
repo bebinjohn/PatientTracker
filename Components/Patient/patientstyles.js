@@ -39,21 +39,16 @@ export const style=StyleSheet.create({
     cards:{
         backgroundColor:'#fff',
         marginBottom:30,
-        borderRadius:15,
-       
+        borderRadius:15
     },
     Image:{
        /* position: 'absolute',
         paddingTop:300,*/
-           
-        
     },
     status:{
-        paddingLeft:100,
-        color:828282,
-        
-        
-        
+        paddingLeft:85,
+        marginTop:-10,
+        color:828282, 
     },
     id:{
         position: 'absolute',
